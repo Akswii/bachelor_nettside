@@ -46,3 +46,29 @@ body{
     display: inline-block;
 }
 
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #9e8ba0;
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;                        
+  transition:.5s;
+}
+
+a:active {
+    text-decoration: none;
+}
+p {
+    font-family: "Titillium Web";
+}
+

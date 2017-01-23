@@ -29,3 +29,11 @@ and open the template in the editor.
    margin-top: 10%;
    margin-bottom: 10%;
 }
+
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    display: block;
+}
+

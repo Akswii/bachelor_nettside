@@ -10,6 +10,22 @@ and open the template in the editor.
 
 .header{
     background-color:#520a76;
-    height:72px;
+    height:72px;  
+}
+#unikialogo
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
 }
 
+.main{
+    background-color: #f1f1f1;
+}
+.textMain{
+   margin-left: 50%;
+   margin-right: 10%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+}

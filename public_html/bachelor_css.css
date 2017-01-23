@@ -13,3 +13,10 @@ and open the template in the editor.
     height:72px;
 }
 
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    display: block;
+}
+

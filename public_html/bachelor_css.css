@@ -11,6 +11,8 @@ and open the template in the editor.
 .header{
     background-color:#520a76;
     height:72px;  
+    position:fixed;
+    width:100%;
 }
 #unikialogo
 {
@@ -18,10 +20,14 @@ and open the template in the editor.
     margin-right: auto;
     display: block;
     padding-top: 20px;
+    position:fixed;
+    width:100%;
+    top:0;
 }
 
 .main{
     background-color: #f1f1f1;
+    padding-top:5%;
 }
 .textMain{
    margin-left: 50%;

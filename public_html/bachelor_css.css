@@ -17,16 +17,7 @@ and open the template in the editor.
     display: inline;
 }
 
-<<<<<<< HEAD
-//#wrapper, img{
-//    width:100%;
-//    height: 100%;
-//}
-
-h3 {
-=======
 .links {
->>>>>>> 0ca59c5f7c4553205384c2bec45ead41abad021c
     display: inline;
     margin-top: 0;
     padding-left: 2%;
@@ -39,20 +30,13 @@ h3 {
     padding-top: 4em;
     font-size: 1.3em;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 0ca59c5f7c4553205384c2bec45ead41abad021c
 body{
     background-color: #f1f1f1;
     margin-right:0;
     margin-left:0;
     margin-top:0;
-<<<<<<< HEAD
     padding-top:5em;
-=======
-    padding-top:3%;
->>>>>>> 0ca59c5f7c4553205384c2bec45ead41abad021c
 }
 .main{
     margin-left:3%;
@@ -96,7 +80,8 @@ a:active {
     text-decoration: none;
     font-family: "Titillium Web"
 }
-p {
+
+p{
     font-family: "Titillium Web";
 }
 

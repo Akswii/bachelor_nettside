@@ -10,31 +10,33 @@ and open the template in the editor.
 
 .header{
     background-color:#520a76;
-    height:72px;
+    height:5em;
     position:fixed;
     width:100%;
     top:0;
     display: inline;
 }
-<<<<<<< HEAD
-=======
-h3 {
+
+.links {
     display: inline;
     margin-top: 0;
     padding-left: 2%;
     color: white;
+    
 }
 
->>>>>>> 76e4e65fa14594d28602d2a5380e143a7d3435df
+#navn {
+    text-align: center;
+    padding-top: 4em;
+    font-size: 1.3em;
+}
+
 body{
     background-color: #f1f1f1;
     margin-right:0;
     margin-left:0;
-<<<<<<< HEAD
     margin-top:0;
-=======
     padding-top:3%;
->>>>>>> 76e4e65fa14594d28602d2a5380e143a7d3435df
 }
 .main{
     margin-left:3%;
@@ -46,7 +48,7 @@ body{
 #logo {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 45%;
+    padding-left: 46%;
     padding-right: 10%;
     padding-top: 20px;
     display: inline-block;
@@ -80,5 +82,31 @@ a:active {
 }
 p {
     font-family: "Titillium Web";
+}
+
+.forside {
+    background-color: white;
+    width: 100%;
+    height: 40em;
+}
+#bilde {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 0em;
+    max-width: 50%;
+}
+
+#bach {
+    font-family: "Titillium Web";
+    text-align: center;
+}
+#dash {
+    font-family: "Titillium Web";
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 0.35em;
+    color: #7F3E98;
+    margin-top: 0.5em;
 }
 

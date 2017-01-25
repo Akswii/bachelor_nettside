@@ -17,23 +17,42 @@ and open the template in the editor.
     display: inline;
 }
 
+<<<<<<< HEAD
 //#wrapper, img{
 //    width:100%;
 //    height: 100%;
 //}
 
 h3 {
+=======
+.links {
+>>>>>>> 0ca59c5f7c4553205384c2bec45ead41abad021c
     display: inline;
     margin-top: 0;
     padding-left: 2%;
     color: white;
+    
 }
+
+#navn {
+    text-align: center;
+    padding-top: 4em;
+    font-size: 1.3em;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0ca59c5f7c4553205384c2bec45ead41abad021c
 body{
     background-color: #f1f1f1;
     margin-right:0;
     margin-left:0;
     margin-top:0;
+<<<<<<< HEAD
     padding-top:5em;
+=======
+    padding-top:3%;
+>>>>>>> 0ca59c5f7c4553205384c2bec45ead41abad021c
 }
 .main{
     margin-left:3%;
@@ -45,7 +64,7 @@ body{
 #logo {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 45%;
+    padding-left: 46%;
     padding-right: 10%;
     padding-top: 20px;
     display: inline-block;
@@ -79,5 +98,31 @@ a:active {
 }
 p {
     font-family: "Titillium Web";
+}
+
+.forside {
+    background-color: white;
+    width: 100%;
+    height: 40em;
+}
+#bilde {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 0em;
+    max-width: 50%;
+}
+
+#bach {
+    font-family: "Titillium Web";
+    text-align: center;
+}
+#dash {
+    font-family: "Titillium Web";
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 0.35em;
+    color: #7F3E98;
+    margin-top: 0.5em;
 }
 

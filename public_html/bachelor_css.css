@@ -10,13 +10,31 @@ and open the template in the editor.
 
 .header{
     background-color:#520a76;
-    height:72px; 
+    height:72px;
+    position:fixed;
+    width:100%;
+    top:0;
+    display: inline;
 }
+<<<<<<< HEAD
+=======
+h3 {
+    display: inline;
+    margin-top: 0;
+    padding-left: 2%;
+    color: white;
+}
+
+>>>>>>> 76e4e65fa14594d28602d2a5380e143a7d3435df
 body{
     background-color: #f1f1f1;
     margin-right:0;
     margin-left:0;
+<<<<<<< HEAD
     margin-top:0;
+=======
+    padding-top:3%;
+>>>>>>> 76e4e65fa14594d28602d2a5380e143a7d3435df
 }
 .main{
     margin-left:3%;
@@ -28,7 +46,35 @@ body{
 #logo {
     margin-right: auto;
     margin-left: auto;
+    padding-left: 45%;
+    padding-right: 10%;
     padding-top: 20px;
-    display: block;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #9e8ba0;
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;                        
+  transition:.5s;
+}
+
+a:active {
+    text-decoration: none;
+}
+p {
+    font-family: "Titillium Web";
 }
 

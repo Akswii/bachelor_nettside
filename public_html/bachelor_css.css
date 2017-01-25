@@ -16,25 +16,19 @@ and open the template in the editor.
     top:0;
     display: inline;
 }
-<<<<<<< HEAD
-=======
+
 h3 {
     display: inline;
     margin-top: 0;
     padding-left: 2%;
     color: white;
 }
-
->>>>>>> 76e4e65fa14594d28602d2a5380e143a7d3435df
 body{
     background-color: #f1f1f1;
     margin-right:0;
     margin-left:0;
-<<<<<<< HEAD
     margin-top:0;
-=======
     padding-top:3%;
->>>>>>> 76e4e65fa14594d28602d2a5380e143a7d3435df
 }
 .main{
     margin-left:3%;

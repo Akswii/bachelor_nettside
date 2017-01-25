@@ -29,6 +29,10 @@ and open the template in the editor.
     padding-left: 2%;
 }
 
+#info{
+    font-family: "Titillium Web"
+}
+
 #navn {
     text-align: center;
     padding-top: 4em;
@@ -52,7 +56,7 @@ body{
 #logo {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-right: 10%;
     padding-top: 20px;
     display: inline-block;

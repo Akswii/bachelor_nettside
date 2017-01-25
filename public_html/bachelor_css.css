@@ -17,12 +17,16 @@ and open the template in the editor.
     display: inline;
 }
 
-.links {
+#link1 {
+    display: inline;
+    margin-top: 0;
+    padding-left: 60%;
+}
+
+#link2{
     display: inline;
     margin-top: 0;
     padding-left: 2%;
-    color: white;
-    
 }
 
 #navn {
@@ -48,7 +52,7 @@ body{
 #logo {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 46%;
+    padding-left: 5%;
     padding-right: 10%;
     padding-top: 20px;
     display: inline-block;

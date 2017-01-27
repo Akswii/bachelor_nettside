@@ -16,8 +16,6 @@ and open the template in the editor.
     top:0;
     display: inline;
 }
-<<<<<<< HEAD
-=======
 h3 {
     display: inline;
     margin-top: 0;
@@ -25,16 +23,13 @@ h3 {
     color: white;
 }
 
->>>>>>> 76e4e65fa14594d28602d2a5380e143a7d3435df
+
 body{
     background-color: #f1f1f1;
     margin-right:0;
     margin-left:0;
-<<<<<<< HEAD
     margin-top:0;
-=======
     padding-top:3%;
->>>>>>> 76e4e65fa14594d28602d2a5380e143a7d3435df
 }
 .main{
     margin-left:3%;
@@ -78,3 +73,67 @@ p {
     font-family: "Titillium Web";
 }
 
+.pictures{
+    display: block;  
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    min-height: 210px;
+    border-style: solid;
+    overflow: hidden;
+}
+
+ #pic1{
+    display:block;
+    margin: auto;
+}
+#pic2{
+    display:block;
+    margin: auto;
+   }
+#pic3{
+    display:block;
+    margin: auto;
+}
+#person1 #person2 #person3 {
+    
+}
+
+.div1
+{
+    display: inline-block;
+    background-color: red;
+    width: auto;
+    float: left;
+    text-align: center;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div2
+{
+    display: inline-block;
+    background-color: green;
+    width: auto;
+    float: left;
+    text-align: center;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div3
+{
+    display: block;
+    width: auto;
+    background-color: orange;
+    float: left;
+    text-align: center;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tekstMain{
+    display: block;
+    border-style: solid;
+    margin-top: 3%;
+}

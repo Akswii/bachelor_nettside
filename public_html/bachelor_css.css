@@ -82,11 +82,10 @@ a:hover {
   -webkit-transition:.5s;                        
   transition:.5s;
   font-family: "Titillium Web"
-      
 }
 
 a:active {
-    text-decoration: khaki;
+    text-decoration: none;
     font-family: "Titillium Web"
     
 }

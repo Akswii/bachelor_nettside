@@ -10,19 +10,35 @@ and open the template in the editor.
 
 .header{
     background-color:#520a76;
-    height:72px;
+    height:5em;
     position:fixed;
     width:100%;
     top:0;
     display: inline;
 }
-h3 {
+
+#link1 {
+    display: inline;
+    margin-top: 0;
+    padding-left: 60%;
+}
+
+#link2{
     display: inline;
     margin-top: 0;
     padding-left: 2%;
-    color: white;
 }
 
+
+#info{
+    font-family: "Titillium Web"
+}
+
+#navn {
+    text-align: center;
+    padding-top: 4em;
+    font-size: 1.3em;
+}
 
 body{
     background-color: #f1f1f1;
@@ -41,7 +57,7 @@ body{
 #logo {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 45%;
+    padding-left: 3%;
     padding-right: 10%;
     padding-top: 20px;
     display: inline-block;
@@ -50,10 +66,12 @@ body{
 a:link {
     text-decoration: none;
     color: white;
+    font-family: "Titillium Web"
 }
 
 a:visited {
     text-decoration: none;
+    font-family: "Titillium Web"
 }
 
 a:hover {
@@ -64,10 +82,13 @@ a:hover {
   -moz-transition:.5s;
   -webkit-transition:.5s;                        
   transition:.5s;
+  font-family: "Titillium Web"
 }
 
 a:active {
     text-decoration: none;
+    font-family: "Titillium Web"
+    
 }
 p {
     font-family: "Titillium Web";
@@ -137,3 +158,30 @@ p {
     border-style: solid;
     margin-top: 3%;
 }
+
+.forside {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+#bilde {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 0em;
+    max-width: 50%;
+}
+
+#bach {
+    font-family: "Titillium Web";
+    text-align: center;
+}
+#dash {
+    font-family: "Titillium Web";
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 0.35em;
+    color: #7F3E98;
+    margin-top: 0.5em;
+}
+

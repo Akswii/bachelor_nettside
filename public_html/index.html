@@ -9,7 +9,8 @@ and open the template in the editor.
         <title>Unikia</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type ="text/css" href="bachelor_css.css">
+        <link rel="stylesheet" media="screen and (min-width: 814px)" type ="text/css" href="bachelor_css.css">
+        <link rel="stylesheet"  media="screen and (max-width: 814px)" type="text/css" href="sheet2.css">
         <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600,200,300' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -17,9 +18,11 @@ and open the template in the editor.
         <script type="text/javascript" src="javascript/smooth.js"></script>      
         <header>
         <div class="header">
-            <img src="unikia-logo.png" style="max-width: 100px" id="logo">
-            <h3 id="link1"><a href=#info class="smooth">Om oss</a></h3>
-            <h3 id="link2"><a href=#scroll class="smooth">Dokumentasjon</a></h3>
+            <img src="unikia-logo.png" style="min-width: 100px; max-width: 100px;" id="logo">
+            <div id="link">
+                <h3 id="link1"><a class= "test" href=#info class="smooth">Om oss</a></h3>
+                <h3 id="link2"><a class= "test" href=#scroll class="smooth">Dokumentasjon</a></h3>
+            </div>
         </div>    
         </header>
         <div class="forside">
@@ -33,25 +36,23 @@ and open the template in the editor.
 
             <h1 id="info">Om oss</h1>
             
-             
-            <h1>Website under construction</h1>
             <div class="pictures">
                 <div class ="div1">
                     <img src="man.png" id="pic1" style="max-width: 150px; max-height: 150px">
                  <p id="person1">
-                        Person 1
+                        Markus Bugge-Hundere
                     </p>
                 </div>
                 <div class ="div2">
                     <img src="man.png" id="pic2" style="max-width: 150px; max-height: 150px">
                 <p id="person2">
-                        Person 2
+                        Aksel Wiig
                     </p>
                 </div>
                 <div class ="div3">
                 <img src="man.png" id="pic3" style="max-width: 150px; max-height: 150px">                   
                     <p id="person3">
-                        Person 3
+                        Morten Wold
                     </p>
                 </div>
                     
@@ -61,21 +62,22 @@ and open the template in the editor.
             <p>Markus Bugge-Hundere s188909 <br>
                 Aksel Wiig s232324 <br>
                 Morten Wold s236326
+                
             </p>
             
-            <p><br>Quick links:</p>
-            <ul>
-                <li><a href="http://student.cs.hioa.no/~s232324/prosjektskisse_unikia.pdf">Prosjektskisse</a>
-                    </li>
-                    <li><a href="http://student.cs.hioa.no/~s232324/forprosjekt_unikia.pdf">Forprosjekt</a>
-                    </li>
-                    <li><a href=#scroll class="smoothScroll">destination1</a>
-                    </li>    
-            </ul>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <h2 id="scroll">Dette er en test ;)</h2>
+            
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            
              </div>
+            <div id="dokumentasjon">
+            <p id="scroll"><br>Dokumentasjon:</p>
+            <ul id="fargelink">
+                <li><a href="http://student.cs.hioa.no/~s232324/prosjektskisse_unikia.pdf" target="_blank">Prosjektskisse</a>
+                    </li>
+                    <li><a href="http://student.cs.hioa.no/~s232324/forprosjekt_unikia.pdf" target="_blank">Forprosjekt</a>
+                    </li>
+            </ul>
+            </div>
         </div>
     </body>
 </html>

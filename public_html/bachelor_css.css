@@ -41,7 +41,8 @@ and open the template in the editor.
 
 
 #info{
-    font-family: "Titillium Web"
+    font-family: "Titillium Web";
+    text-align: center;
 }
 
 #navn {
@@ -71,12 +72,21 @@ body{
 }
 
 a:link {
+ 
     text-decoration: none;
     font-family: "Titillium Web";
 }
 
 .test {
     color: white;
+}
+#linkone:hover
+{
+    text-decoration: underline;
+}
+#linktwo:hover
+{
+    text-decoration: underline;
 }
 
 a:visited {
@@ -101,11 +111,6 @@ a:active {
     
 }
 
-#fargelink {
-    text-decoration: none;
-    font-family: "Titillium Web";
-    color: black;
-}
 
 p {
     font-family: "Titillium Web";
@@ -117,7 +122,6 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     min-height: 210px;
-    border-style: solid;
     overflow: hidden;
 }
 
@@ -140,7 +144,6 @@ p {
 .div1
 {
     display: inline-block;
-    background-color: red;
     width: 33.3%;
     float: left;
     text-align: center;
@@ -151,7 +154,6 @@ p {
 .div2
 {
     display: inline-block;
-    background-color: green;
     width: 33.3%;
     float: left;
     text-align: center;
@@ -163,7 +165,6 @@ p {
 {
     display: block;
     width: 33.3%;
-    background-color: orange;
     float: left;
     text-align: center;
     min-width: 150px;
@@ -172,7 +173,6 @@ p {
 }
 #tekstMain{
     display: block;
-    border-style: solid;
     margin-top: 3%;
     width: 60%;
     margin-left: 20%;
@@ -194,8 +194,12 @@ p {
 }
 
 #dokumentasjon {
-    font-size: 2.3em;
+    font-size: 1.75em;
     font-family: "Titillium Web";
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #bach {

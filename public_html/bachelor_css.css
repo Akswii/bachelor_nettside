@@ -241,4 +241,40 @@ p {
     color: #7F3E98;
     margin-top: 0.5em;
 }
+#githublogo
+{
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#linkgit
+{
+    display: inline;
+   
+}
+#unikialogo
+{
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#linkunikia
+{
+    display: inline;
+}
+#hioalogo
+{
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#linkhioa
+{
+    display: inline;
+}
 

@@ -1,1 +1,1 @@
-Dette er html og JS filene til vår nettside for Unikia.
+Web page containing all information about our project for Unikia.
